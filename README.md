@@ -1,4 +1,1 @@
-# new__code
-TZ_ZT
-
-https://nickkazban.github.io/new__code/
+https://nickkazban.github.io/newCode/
