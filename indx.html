@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/normalise.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <title>Вікна КОРСА</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
                     <a href="tel:0(800)210-210">0(800)210-210</a>
                 </div>
                 <nav class="header__nav">
-                    <ul class="menu header__menu">
+                    <ul class="menu">
                         <li><a href="" class="menu__item">Окна</a></li>
                         <li><a href="" class="menu__item">Двери</a></li>
                         <li><a href="" class="menu__item">Балконы и лоджижии</a></li>
@@ -31,6 +33,7 @@
                         <li><a href="" class="menu__item">Где купить</a></li>
                     </ul>
                 </nav>
+                <button class="menu__btn">Menu</button>
                 <div class="header__switchLang">
                     <button class="lang__btn">UA</button>
                     <button class="lang__btn">RU</button>
@@ -47,6 +50,12 @@
                 <a class="main__link-icon" href="#"><img src="./images/main__icon.png" alt="mi"></a>
                 <span>/</span>
                 <a class="main__link-windows" href="#">Окна</a>
+            </div>
+            <div class="main__text">
+                Торговая марка Окна КОРСА предлагает всем клиентам купить окна c установкой и доставкой по территории Украины. В наших
+                фирменных офисах имеется большой подбор оконных и дверных конструкций. Наш квалифицированный специалист порекомендует
+                оптимальный вариант и поможет выбрать наилучшее для вас. Если Вы уже выбрали окна или двери, то оформить заказ можно по
+                телефону 0(800) 210-210.
             </div>
         </div>
     </div>
@@ -104,13 +113,13 @@
                         Покупайте выгодно!
                     </div>
                     <div class="sale__text-subtitle">
-                        Металопластиковые и алюминевые окна <span>со скидкой 30%</span>
+                        Металопластиковые и алюминевые окна</br> <span>со скидкой 30%</span>
                     </div>
                     <div class="sale__text-endweek">
                         <span>Торопитесь!</span>Акция <b>до конца недели</b>
                     </div>
                 </div>
-                <div class="sale__img">
+                <div class="sale__img sale__img1">
                     <img src="/images/sale.png" alt="sale_img">
                 </div>
             </div>
@@ -137,7 +146,7 @@
             <div class="typeWindforSale__wrapper">
                 <div class="typeWindforSale__inner">
                     <button class="labelSale">
-                        <a href="">
+                        <a href="#">
                             <span><b>Экономия</b><br>4312 грн</span>
                         </a>
                     </button>
@@ -147,13 +156,15 @@
                             Одностворчатое окно с открывающайся створкой
                         </a>
                         <div class="infoSale__withoutSale">
-                            Цена без скидки
+                            Цена без скидки от <span>14372 грн</span>
                         </div>
                         <div class="infoSale__price">
-                            Цена от <span>1150</span> <b>грн</b>
+                            Цена от
+                            <span class="infoSale__price-sum">1150</span>
+                            <b class="infoSale__price-uan">грн</b>
                         </div>
-                        <button  class="infoSale__btn" style="background-color: green;">
-                            Заказать
+                        <button  class="infoSale__btn">
+                            <a class="infoSale__btn-text">Заказать</a>
                         </button>
                     </div>
                 </div>
@@ -169,13 +180,15 @@
                             Одностворчатое окно с открывающайся створкой
                         </a>
                         <div class="infoSale__withoutSale">
-                            Цена без скидки
+                            Цена без скидки от <span>13344 грн</span>
                         </div>
                         <div class="infoSale__price">
-                            Цена от <span>1150</span> <b>грн</b>
+                            Цена от 
+                            <span class="infoSale__price-sum">2150</span> 
+                            <b class="infoSale__price-uan">грн</b>
                         </div>
                         <button class="infoSale__btn" style="background-color: green;">
-                            Заказать
+                            <span class="infoSale__btn-text">Заказать</span>
                         </button>
                     </div>
                 </div>
@@ -191,13 +204,15 @@
                             Одностворчатое окно с открывающайся створкой
                         </a>
                         <div class="infoSale__withoutSale">
-                            Цена без скидки
+                            Цена без скидки от <span>14372 грн</span>
                         </div>
                         <div class="infoSale__price">
-                            Цена от <span>1150</span> <b>грн</b>
+                            Цена от
+                            <span class="infoSale__price-sum">3150</span>
+                            <b class="infoSale__price-uan">грн</b>
                         </div>
                         <button class="infoSale__btn" style="background-color: green;">
-                            Заказать
+                            <span class="infoSale__btn-text">Заказать</span>
                         </button>
                     </div>
                 </div>
@@ -213,22 +228,22 @@
                             Одностворчатое окно с открывающайся створкой
                         </a>
                         <div class="infoSale__withoutSale">
-                            Цена без скидки
+                            Цена без скидки от <span>18372 грн</span>
                         </div>
                         <div class="infoSale__price">
-                            Цена от <span>1150</span> <b>грн</b>
+                            Цена от
+                            <span class="infoSale__price-sum">3570</span>
+                            <b class="infoSale__price-uan">грн</b>
                         </div>
                         <button class="infoSale__btn" style="background-color: green;">
-                            Заказать
+                            <span class="infoSale__btn-text">Заказать</span>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/menu.js"></script>
-    <img src="./images/" alt="">
+    <script src="js/main.js"></script>
 </body>
 </html>
